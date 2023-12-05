@@ -1,58 +1,107 @@
 <html>
-<head>
-  <style>
-body{
-background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);
-}
-  .intro {
-  max-width: 500px;
-    text-align: center;
-  margin: auto;
-   color: black
-}
-.wiki{
-   background-color:black
-  border: black;
+
+  <head>
+    <style>
+      body {
+       background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,187,187,1) 50%, rgba(255,255,255,1) 100%); 1) 100%);
+      }
+      .navbar ul{
+        list-style-type:none;
+        background-color:black;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+      
+      .navbar a{
+        color:white;
+        text-decoration:none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        transition: 0.4s;
+      }
+      
+      .navbar a:hover{
+        background-color: white
+        color:black;
+      }
+      
+      
+      
+
+      .intro {
+        max-width: 500px;
+        text-align: center;
+        margin: auto;
+        color: grey
+      }
+
+      .wiki {
+        background-color: #000000;
+  border: 2px #000000;
   color: white;
-  padding: 15px 32px;
+  padding: 16px 32px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
   cursor: pointer;
-  border-radius: 8px;
-}
-.wiki:hover{
-   background-color: white;
-  color: black;
-}
-    
-  </style>
+  border-radius:8px;
+      }
 
-</head>
+      .wiki:hover {
+        background-color:#ffffff;
+        border: 2px #000000;
+        color:#000000;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
   
-<body>
-<div class="intro">
-  <h1>Apollo 11</h1>
-<h3>
-  Welcome! Here im going to explain the apollo 11 mission and the amazing discoveries and events that were made on that day.
-  <br>This is also my First Website.
-</h3>
-<br>
-  <a href="https://en.wikipedia.org/wiki/Saturn_V" class="wiki"> Wikipedia </a>
-<br>
-  <iframe src="https://giphy.com/embed/W69xBwRM9fhh30eyMw" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
-      <a href="https://giphy.com/gifs/bbcamerica-bbc-america-moon001-moon-landing-live-W69xBwRM9fhh30eyMw">via GIPHY</a></p>
-  <br>
+ <nav class="navbar">
+  <ul>
+  <li><a href="">About</a></li>
+  <li><a href="">Mission</a></li>
+  <li><a href="">Problems</a></li>
+  <li><a href="">Finale</a></li>
+  </ul>   
+ </nav>
+  
+  
+  
+  
+    <div class="intro">
+    
+      <h1>Apollo 11</h1>
+      
+       <h3>
+        Welcome! Here im going to explain the apollo 11 mission and the amazing discoveries and events that were made on that day.
+        
+        <br>This is also my First Website.
+        
+      </h3>
+      
+      <br>
+      
+      <a href="https://en.wikipedia.org/wiki/Saturn_V" class="wiki"> Wikipedia </a>
+      
+      <br>
+      
+      <iframe src="https://giphy.com/embed/W69xBwRM9fhh30eyMw" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        
+      <br>
 
-</div>  
+    </div>
 
 
 
-</body>
+  </body>
 
 </html>
